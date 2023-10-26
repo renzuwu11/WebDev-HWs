@@ -12,6 +12,14 @@ html{
     font-family: myFont;
     src: url(Fonts/Genty.ttf.ttf);
 }
+@font-face {
+    font-family: Byeol;
+    src: url(Fonts/Brixton\ Book.ttf);
+}
+@font-face {
+    font-family: Comet;
+    src: url(Fonts/Codec-Warm-Bold-trial.ttf);
+}
 body{
     background: #4F7942;
     color: #FFFFFF;
@@ -124,8 +132,56 @@ nav .nav-home li a:hover::after{
     background-size: cover;
     background-position: center;
 }
-.One{
-    list-style: none;
+.nav-numbers {
+    list-style: none; 
+    display: flex; 
+    justify-content: space-around; 
+    padding: 0; 
+}
+.nav-numbers li {
+    margin: 0; 
+}
+.nav-numbers li a {
+    color: #4F7942;
+    text-decoration: none;
+    font-size: 72px;
+    position: relative;
+}
+.num-1 {
+    font-family: myFont;
+    position: absolute;
+    top: 300px;
+    right: 760px;
+}
+.num-2 {
+    font-family: myFont;
+    position: absolute;
+    top: 155px;
+    right: 493px;
+}
+.num-3 {
+    font-family: myFont;
+    position: absolute;
+    top: 155px;
+    right: 120px;
+}
+.num-4 {
+    font-family: myFont;
+    position: absolute;
+    top: 510px;
+    right: 869px;
+}
+.num-5 {
+    font-family: myFont;
+    position: absolute;
+    top: 510px;
+    right: 505px;
+}
+.num-6 {
+    font-family: myFont;
+    position: absolute;
+    top: 510px;
+    right: 130px;
 }
 /* Content 1 */
 #algoritees{
@@ -153,10 +209,10 @@ nav .nav-home li a:hover::after{
 }
 .byeol-1{
     padding-top: 6%;
-    padding-left: 29%;
+    padding-left: 28%;
     padding-right: 18%;
     font-weight: 100;
-    font-family: myFont;
+    font-family: Byeol;
     font-size: 45px;
     color: #4F7942;
 }
@@ -170,10 +226,10 @@ nav .nav-home li a:hover::after{
 /* Content 3 */
 .comet-1{
     padding-top: 13%;
-    padding-left: 46%;
+    padding-left: 47%;
     padding-right: 28%;
     font-weight: 100;
-    font-family: myFont;
+    font-family: Comet;
     font-size: 45px;
     color: #4F7942;
 }
@@ -198,15 +254,8 @@ nav .nav-home li a:hover::after{
     background-size: cover;
     background-position: center;
 }
-.mikaa-1{
-    padding-top: 30%;
-    padding-left: 66%;
-    font-weight: 100;
-    font-family: myFont;
-    font-size: 45px;
-    color: #4F7942;
-}
 .mikaa-2{
+    padding-top: 35%;
     padding-left: 50%;
     padding-right: 9%;
     font-size: 18px;
