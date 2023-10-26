@@ -12,4 +12,4 @@ Note: For some instance, the layout of my portfolio differs on different devices
 Note:
 
       On the contents/projects part, the numbers can be clicked, and it will re-direct
-      you to that part~
+      you to that project~
