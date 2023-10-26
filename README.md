@@ -8,3 +8,8 @@ Note: For some instance, the layout of my portfolio differs on different devices
       I took a screenshot of how does the site should actually look like, because thats
       what it looks like in my end. Thank you so much!
 
+
+Note:
+
+      On the contents/projects part, the numbers can be clicked, and it will re-direct
+      you to that part~
