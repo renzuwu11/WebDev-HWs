@@ -1,13 +1,16 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: All;
     box-sizing: border-box;
 }
 html{
     scroll-behavior: smooth;
 }
-
+@font-face {
+    font-family: All;
+    src: url(Fonts/Inconsolata-Regular.ttf);
+}
 @font-face {
     font-family: myFont;
     src: url(Fonts/Genty.ttf.ttf);
