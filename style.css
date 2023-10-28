@@ -41,7 +41,7 @@ body{
 }
 nav{
     display: flex;
-    padding-left: 70%;
+    padding-left: 36%;
 }
 nav .nav-home li{
     display: inline-block;
@@ -64,7 +64,12 @@ nav .nav-home li a::after{
     bottom: -6px;
     transition: 0.5s;
 }
-nav .nav-home li a:hover::after{
+
+nav .nav-home li a:hover{
+    width: 100%;
+    font-weight: bolder;
+}
+nav .nav-home li a:hover:after{
     width: 100%;
 }
 /* About Me */
@@ -135,6 +140,9 @@ nav .nav-home li a:hover::after{
     background-size: cover;
     background-position: center;
 }
+.nav2{
+    padding-left: 70%;
+}
 .nav-numbers {
     list-style: none; 
     display: flex; 
@@ -149,6 +157,10 @@ nav .nav-home li a:hover::after{
     text-decoration: none;
     font-size: 72px;
     position: relative;
+}
+nav .nav-numbers li a:hover{
+    width: 100%;
+    font-weight: bolder;
 }
 .num-1 {
     font-family: myFont;
