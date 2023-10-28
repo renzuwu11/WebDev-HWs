@@ -158,9 +158,22 @@ nav .nav-home li a:hover:after{
     font-size: 72px;
     position: relative;
 }
+nav .nav-numbers li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #4F7942;
+    position: absolute;
+    left: 0;
+    bottom:25px;
+    transition: 0.5s;
+}
 nav .nav-numbers li a:hover{
     width: 100%;
     font-weight: bolder;
+}
+nav .nav-numbers li a:hover::after{
+    width: 100%;
 }
 .num-1 {
     font-family: myFont;
